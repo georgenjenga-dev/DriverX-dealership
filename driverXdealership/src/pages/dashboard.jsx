@@ -7,7 +7,7 @@ import {
 
 import { db } from "../firebase/config";
 
-import CarCard from "../components/CarCard";
+import CarCard from "../components/Carcard";
 
 function Dashboard() {
   const [cars, setCars] = useState([]);
@@ -35,6 +35,6 @@ function Dashboard() {
       ))}
     </div>
   );
-  }
+}
 
 export default Dashboard;

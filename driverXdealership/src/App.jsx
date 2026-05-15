@@ -1,12 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Dashboard from "./pages/Dashboard";
-import AddCar from "./pages/AddCar";
+import Home from "./pages/home";
+import Login from "./pages/login";
+import Dashboard from "./pages/dashboard";
+import AddCar from "./pages/Addcar";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Carcard from "./components/Carcard";
 
 function App() {
   return (
