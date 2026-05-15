@@ -1,3 +1,4 @@
+
  @tailwind base;
  @tailwind components;
  @tailwind utilities;
@@ -7,5 +8,5 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
   background: #0f172a;
-  color: white;
+  color: white; 
 }
