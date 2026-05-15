@@ -6,16 +6,21 @@ import {
 
 import { getFirestore } from "firebase/firestore";
 
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyBrn7FoUxvc1H77Cd9LY1yZe-QY1QqM6s0",
+  authDomain: "drivexdealership.firebaseapp.com",
+  projectId: "drivexdealership",
+  storageBucket: "drivexdealership.firebasestorage.app",
+  messagingSenderId: "974783056903",
+  appId: "1:974783056903:web:72968bc482e5c519a42ea2",
+  measurementId: "G-JFZ65SHE8R"
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 export const auth = getAuth(app);
 export const provider = new GoogleAuthProvider();
