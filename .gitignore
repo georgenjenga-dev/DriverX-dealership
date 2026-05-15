@@ -1,1 +1,20 @@
-Nothing should be ignored based on the provided file changes. The only modified file is a source code file (`driverXdealership/src/pages/dashboard.jsx`), which should not be ignored.
+```
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Build artifacts
+dist/
+build/
+```
