@@ -1,1 +1,47 @@
-Nothing should be ignored based on the provided file changes, as only a source code file (`driverXdealership/src/pages/dashboard.jsx`) was modified and no build artifacts, dependencies, or temporary files were included in the changes.
+```
+# Dependencies
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+.MF
+tags
+TAGS
+id-tag
+.DS_Store
+Thumbs.db
+```
